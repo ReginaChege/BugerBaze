@@ -1,6 +1,5 @@
 body{
     overflow-x: hidden;
-    background-color: burlywood;
 }
 #pic{
     width: 300px;
@@ -9,6 +8,7 @@ body{
 #products{
    display: grid;
    grid-template-columns: repeat(4,1fr);
+   background-color: rgb(139, 80, 7);
 }
 #products {
     animation: slide-in 1s forwards;
@@ -74,3 +74,19 @@ body{
   #but:hover {
     background-color:blue;
   }
+
+
+  @media (max-width: 768px) {
+    #products img {
+      width: 150px;
+    }
+  }
+  #but {
+    background-color: grey;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  #but:hover {
+    background-color: blue;
+  }
+  
