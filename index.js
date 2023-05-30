@@ -24,10 +24,10 @@ productItems.forEach(item => {
 const buttons = document.querySelectorAll('#but > div');
 productItems.forEach(item => {
     item.addEventListener('mouseenter', () => {
-        item.style.backgroundColor = 'lightgray';
+        item.style.backgroundColor = 'white';
     });
     item.addEventListener('mouseleave', () => {
-        item.style.backgroundColor = 'maroon';
+        item.style.backgroundColor = 'darkorange';
     });
     item.addEventListener('click', () => {
         if (item.classList.contains('selected')) {
