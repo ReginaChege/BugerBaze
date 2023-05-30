@@ -1,6 +1,5 @@
 body{
     overflow-x: hidden;
-    background-color: burlywood;
 }
 #pic{
     width: 300px;
@@ -9,6 +8,7 @@ body{
 #products{
    display: grid;
    grid-template-columns: repeat(4,1fr);
+   background-color: rgb(139, 80, 7);
 }
 #products {
     animation: slide-in 1s forwards;
