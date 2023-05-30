@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  .locate{
+      background-color: rgb(216, 212, 206);
+      width: 170px;
+      height: 100px;
+      text-align: center;
+      padding-top: 20px;
+      font-size: 24px;
+      border-radius: 10px;
+  }
+  
+  .numbers{
+      background-color: rgb(216, 212, 206);
+      width: 170px;
+      height: 100px;
+      text-align: center;
+      padding-top: 20px;
+      font-size: 24px;
+      border-radius: 10px;
+      /* margin-top: 10px; */
+  }
+  
+  .mails{
+      background-color: rgb(216, 212, 206);
+      width: 170px;
+      height: 100px;
+      text-align: center;
+      padding-top: 20px;
+      font-size: 24px;
+      border-radius: 10px;
+      /* margin-top: 10px; */
+  }
+  
+  .contac{
+      display: flex;
+      gap: 10%;
+      margin-left: 350px;
+      margin-top: 5px;
+  
+  }
+  .help{
+      margin-left: 150px;
+      font-size: 50px;
+      margin-top: 40px;
+      color: rgb(17, 17, 16);
+  }
+  #name{
+    padding: 20px 50px;
+    border-radius: 5px;
+    margin-left: 150px;
+    
+  }
+  #address{
+    padding: 20px 50px;
+    border-radius: 5px;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-left: 150px;
+  
+  }
+  
+  .message1{
+    height: 50px;
+    width: 200px;
+    border-radius: 5x;
+    margin-left: 180px;
+  
+  }
+  
+  .message2{
+    height: 50px;
+    width: 200px;
+    border-radius: 5x;
+    margin-left: 180px;
+    background-color: bisque;
+    color: black;
+  
+  }
+  .details{
+    background-color: rgb(226, 136, 26);
+    width: 600px;
+    margin-left: 450px;
+    margin-top: -25px;
+  
+  }
+  
+  
+  .phone{
+      margin-left: 80px;
+      margin-top: 20px;
+      font-size: 55px;
+      color: darkorange;
+      text-align: center;
+  
+      animation: slide-in 2s forwards;
+    }
+    @keyframes slide-in {
+      from {
+        transform: translateX(-100%);
+        opacity: 0;
+      }
+      
+      to {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  
+  .bookings{
+      display: flex;
+      margin-left: 200px;
+      gap: 30%;
+      margin-top: 20px;
+      color: rgb(139, 80, 7);
+      font-size: 23px;
+      animation: slide-in 3s forwards;
+     
+  }
+  
+  
+  
+  .quiz{
+      display: flex;
+      gap: 19%;
+      margin-left: 130px;
+      margin-top: 10px;
+      font-size: 18px;
+      animation: slide-in 4s forwards;
+  }
